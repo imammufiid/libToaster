@@ -8,7 +8,8 @@
     android:fitsSystemWindows="false"
     android:gravity="center"
     android:orientation="horizontal"
-    android:padding="22dp"
+    android:paddingVertical="14dp"
+    android:paddingHorizontal="18dp"
     android:background="@drawable/bg_toast_success"
     tools:ignore="UseCompoundDrawables">
 
@@ -18,7 +19,6 @@
         android:layout_height="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:src="@drawable/ic_success"
         android:contentDescription="@string/toast_message" />
 
     <TextView

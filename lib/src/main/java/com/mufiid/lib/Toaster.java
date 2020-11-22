@@ -1,6 +1,7 @@
 package com.mufiid.lib;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -63,15 +64,19 @@ public class Toaster {
 
         switch (type) {
             case SUCCESS :
+                toastIcon.setBackgroundResource(R.drawable.ic_check_circle);
                 ToasterUtils.setBackground(toastLayout, ContextCompat.getDrawable(context, R.drawable.bg_toast_success));
                 break;
             case INFO :
+                toastIcon.setBackgroundResource(R.drawable.ic_info);
                 ToasterUtils.setBackground(toastLayout, ContextCompat.getDrawable(context, R.drawable.bg_toast_info));
                 break;
             case WARNING:
+                toastIcon.setBackgroundResource(R.drawable.ic_warning);
                 ToasterUtils.setBackground(toastLayout, ContextCompat.getDrawable(context, R.drawable.bg_toast_warning));
                 break;
             case DANGER :
+                toastIcon.setBackgroundResource(R.drawable.ic_danger);
                 ToasterUtils.setBackground(toastLayout, ContextCompat.getDrawable(context, R.drawable.bg_toast_danger));
                 break;
         }

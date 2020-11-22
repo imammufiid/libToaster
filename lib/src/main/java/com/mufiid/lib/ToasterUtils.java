@@ -15,4 +15,5 @@ final class ToasterUtils {
         else
             view.setBackgroundDrawable(drawable);
     }
+
 }
