@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toaster.info(this, "Info", Toast.LENGTH_SHORT).show()
+//        Toaster.info(this, "Info", Toast.LENGTH_SHORT).show()
 //        Toaster.success(this, "Success", Toast.LENGTH_SHORT).show()
 //        Toaster.warning(this, "Warning", Toast.LENGTH_SHORT).show()
-//        Toaster.danger(this, "Danger", Toast.LENGTH_SHORT).show()
+        Toaster.danger(this, "Danger", Toast.LENGTH_SHORT).show()
     }
 }
