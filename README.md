@@ -14,10 +14,10 @@
 ---
 
 ## Example
-|--|--|--|--|
 |![](https://raw.githubusercontent.com/imufiid/libToaster/master/screenshoot/IMG_20201123_153624.jpg)|![](https://raw.githubusercontent.com/imufiid/libToaster/master/screenshoot/IMG_20201123_153613.jpg)|![](https://raw.githubusercontent.com/imufiid/libToaster/master/screenshoot/IMG_20201123_153556.jpg)|![](https://raw.githubusercontent.com/imufiid/libToaster/master/screenshoot/IMG_20201123_153546.jpg)|
-|Success Toast|Info Toast|Warning Toast|Danger Toast|
 |--|--|--|--|
+|Success Toast|Info Toast|Warning Toast|Danger Toast|
+
 
 ---
 ## Download
