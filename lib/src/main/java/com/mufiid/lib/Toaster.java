@@ -83,7 +83,7 @@ public class Toaster {
         }
 
         toastMessage.setText(message);
-        currentToast.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 100);
+        currentToast.setGravity(Gravity.TOP|Gravity.RIGHT, 50, 100);
         currentToast.setView(toastLayout);
 
         if (!allowQueue){
