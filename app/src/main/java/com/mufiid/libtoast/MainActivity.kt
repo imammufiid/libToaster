@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v?.id) {
-            R.id.btn_toast_success -> Toaster.success(this, "Success", Toast.LENGTH_SHORT).show()
-            R.id.btn_toast_info ->  Toaster.info(this, "Info", Toast.LENGTH_SHORT).show()
-            R.id.btn_toast_warning -> Toaster.warning(this, "Warning", Toast.LENGTH_SHORT).show()
-            R.id.btn_toast_danger -> Toaster.danger(this, "Danger", Toast.LENGTH_SHORT).show()
+            R.id.btn_toast_success -> Toaster.success(this, "Terima Kasih", Toast.LENGTH_SHORT).show()
+            R.id.btn_toast_info ->  Toaster.info(this, "Pemberitahuan!!", Toast.LENGTH_SHORT).show()
+            R.id.btn_toast_warning -> Toaster.warning(this, "Mohon Maaf!", Toast.LENGTH_SHORT).show()
+            R.id.btn_toast_danger -> Toaster.danger(this, "Peringatan!!", Toast.LENGTH_SHORT).show()
         }
     }
 }

@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <a><img src="https://img.shields.io/badge/Version-0.1.1-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-0.2.1-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-imufiid-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -34,8 +34,6 @@ dependencies {
 > **MainActivity.kt**
 ```kotlin
 class MainActivity : AppCompatActivity() {
-    private var duwitRupiah: DuwitRupiah? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         ...
 
@@ -54,8 +52,9 @@ class MainActivity : AppCompatActivity() {
 - **0.0.1**
   - First Release
 - **0.1.1**
-  - change icon Toaster
-
+  - update icon Toaster
+- **0.2.1**
+  - update position Toaster
 ---
 
 ### Contribution
