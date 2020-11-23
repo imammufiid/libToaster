@@ -8,8 +8,8 @@
     android:fitsSystemWindows="false"
     android:gravity="center"
     android:orientation="horizontal"
-    android:paddingVertical="14dp"
-    android:paddingHorizontal="18dp"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp"
     android:background="@drawable/bg_toast_success"
     tools:ignore="UseCompoundDrawables">
 
@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorWhite"
         android:textSize="16sp"
+        android:textStyle="bold"
         android:text="@string/toast_message"/>
 
 </LinearLayout>

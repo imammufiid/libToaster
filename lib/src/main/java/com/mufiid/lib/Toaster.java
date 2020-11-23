@@ -2,6 +2,7 @@ package com.mufiid.lib;
 
 import android.content.Context;
 import android.media.Image;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -82,6 +83,7 @@ public class Toaster {
         }
 
         toastMessage.setText(message);
+        currentToast.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 0);
         currentToast.setView(toastLayout);
 
         if (!allowQueue){
